@@ -1,0 +1,50 @@
+body {
+    text-align: center;
+    background-color: rgb(61, 109, 240);
+}
+
+#level-title {
+    font-size: 3rem;
+    background-color: rgb(248, 171, 171);
+    border: 10px solid rgb(0, 0, 0);
+    border-radius: 20%;
+}
+
+.container {
+    display: block;
+    width: 60%;
+    margin: auto;
+    background-color: rgb(44, 39, 39);
+    border: 10px solid rgb(0, 0, 0);
+    border-radius: 90%;
+}
+
+.btn {
+    margin: 25px;
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    border: 10px solid rgb(0, 0, 0);
+    border-radius: 60%;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.active {
+    box-shadow: 0 0 20px white;
+    background-color: rgb(163, 163, 147);
+}
