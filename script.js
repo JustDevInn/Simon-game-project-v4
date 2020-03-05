@@ -64,7 +64,7 @@ function checkAnswer(currentLevel) {
             }, 1000);
         }
     } else {
-        document.querySelector("#level-title").innerHTML = "☠️GAME OVER☠️";
+        document.querySelector("#level-title").innerHTML = `☠️@${level}☠️`;
         startOver();
     }
 }
