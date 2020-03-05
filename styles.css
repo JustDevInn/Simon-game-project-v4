@@ -2,7 +2,7 @@ body {
     text-align: center;
     background-color: #393E46;
     color: #4ECCA3;
-    font-family: 'Lobster', cursive;
+    font-family: sans-serif;
     text-shadow: 5px 0 #232931;
     font-size: 8rem;
 }
@@ -14,15 +14,21 @@ body {
     color: #393E46;
     font-size: 8rem;
     margin: 0;
+    align-items: center;
 }
 
 .container {
-    display: block;
+    display: absolute;
     width: 50%;
     margin: auto;
     background-color: #4ECCA3;
     border: 10px solid rgb(0, 0, 0);
     border-radius: 20%;
+    padding-top: 20px;
+}
+
+.row {
+    justify-content: center;
 }
 
 .btn {
@@ -55,50 +61,23 @@ body {
     background-color: rgb(163, 163, 147);
 }
 
-
-/* .ball1 {
-    height: 150px;
-    width: 150px;
-    border: 10px solid rgb(0, 0, 0);
-    border-radius: 40%;
-    background-color: snow;
+.startBtn {
     position: absolute;
-    top: 100px;
-    left: 500px;
-    animation-name: drive1;
-    animation-duration: 3s;
-    animation-fill-mode: both;
-    animation-iteration-count: infinite;
+    top: 265px;
+    width: 250px;
+    height: 350px;
+    font-size: 20px;
+    right: 600px;
+    background-color: #393E46;
+    color: #4ECCA3;
+    opacity: 0.8;
 }
 
-.ball2 {
-    height: 150px;
-    width: 150px;
-    border: 10px solid rgb(0, 0, 0);
-    border-radius: 40%;
-    background-color: purple;
-    top: 100px;
-    right: 900px;
-    animation-name: drive1;
-    animation-duration: 3s;
-    animation-fill-mode: both;
-    animation-iteration-count: infinite;
+.startBtn p {
+    text-align: left;
 }
 
-@keyframes drive1 {
-    from {
-        transform: translateX(-200px);
-    }
-    to {
-        transform: translateY(1000px);
-    }
+.startBtn h4 {
+    color: rgb(233, 67, 38);
+    margin: 0;
 }
-
-@keyframes drive2 {
-    from {
-        transform: translateX(1000px);
-    }
-    to {
-        transform: translateY(-100px);
-    }
-} */
