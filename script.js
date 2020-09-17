@@ -6,13 +6,14 @@ var level = 0;
 var startButton = document.querySelector('.startBtn');
 
 
-// document.querySelector("#level-title").addEventListener("click", someFunction => {
-//     if (!started) {
-//         document.querySelector("#level-title").text = ("level " + level);
-//         numberSequence();
-//         started = true;
-//     }
-// });
+
+document.querySelector("#level-title").addEventListener("click", someFunction => {
+    if (!started) {
+        document.querySelector("#level-title").text = ("level " + level);
+        numberSequence();
+        started = true;
+    }
+});
 
 document.querySelector('.btn.yellow').addEventListener("click", function() {
     clickedPattern.push("yellow");
